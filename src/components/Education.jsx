@@ -6,7 +6,7 @@ const education = [
     institution: "Vikram University Ujjain",
     degree: "Bachelor of Computer Application",
     duration: "2022-2025",
-    gpa: "RUNNING",
+    gpa: "Grade: A",
    image: schoolImg,// UcfImage 
   },
   {

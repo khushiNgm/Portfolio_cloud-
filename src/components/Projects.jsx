@@ -2,6 +2,8 @@
 import recipe from "../assets/RECIPE.png"; 
 import curd from '../assets/CURD.png'
 import MDSIMG from "../assets/mandsaur.png"; // Import Expense Tracker image
+import GroceryImg from "../assets/GroceryWeb.png"; 
+import PortfolioImg from "../assets/portfolio.png"; 
 
 const projects = [
   {
@@ -10,7 +12,7 @@ const projects = [
     technologies: "Built a CRUD application using React.js, Tailwind CSS, JavaScript, API integration, and Local Storage for seamless data management.",
     image: curd,
     github: "https://github.com/khushiNgm/CURD_REACT",
-    liveDemo: "https://curdoperation.vercel.app/",
+    liveDemo: "https://curdreact.vercel.app/",
   
   },
   {
@@ -26,8 +28,24 @@ const projects = [
     name: "MANDSAUR WEB",
     technologies: "A modern, responsive website for Mandsaur built with React and React Router, enabling smooth navigation and dynamic page rendering.",
     image: MDSIMG,
-    github: "https://github.com/khushiNgm/Mandsaur_web",
-    liveDemo: "https://mandsaurweb.vercel.app/",
+    github: "https://github.com/khushiNgm/MDS_WEB",
+    liveDemo: "https://mds-web-ashy.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Grocery Web",
+    technologies: "A full-stack responsive website.Built with ReactJS, Tailwind CSS, NodeJS, ExpressJS, and MongoDB for smooth UI and backend integration.",
+    image: GroceryImg,
+    github: "https://github.com/khushiNgm/grocery_web",
+    liveDemo: "https://grocery-web-seven.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Portfolio",
+    technologies: "Built my portfolio using ReactJS and Tailwind CSS with smooth navigation and modern UI design.Includes project previews, tech stack highlights, and an integrated contact form.",
+    image: PortfolioImg,
+    github: "https://github.com/khushiNgm/PORTFOLIO",
+    liveDemo: "https://portfolio-ps1o.vercel.app/",
   },
  
 ];
