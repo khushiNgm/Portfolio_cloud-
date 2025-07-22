@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/my-app
+cd /home/ubuntu/PORTFOLIO
 npm install
-npm run build
