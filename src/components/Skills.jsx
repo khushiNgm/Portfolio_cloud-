@@ -43,13 +43,13 @@ const Skills = () => {
                 )}
               </div>
               <h3 className="text-xl font-semibold mb-2">{skill.name}</h3>
-              <div className="w-full bg-gray-300  dark:bg-gray-600 rounded-full h-2.5 relative">
+{/*               <div className="w-full bg-gray-300  dark:bg-gray-600 rounded-full h-2.5 relative">
                 <div 
                   className="bg-gradient-to-r from-green-400 to-blue-500 h-full rounded-full" 
                   style={{ width: `${skill.proficiency}%` }}
                 />
               </div>
-              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">{`${skill.proficiency}%`}</p>
+              <p className="text-gray-600 dark:text-gray-400 text-sm mt-1">{`${skill.proficiency}%`}</p> */}
             </div>
           ))}
         </div>
