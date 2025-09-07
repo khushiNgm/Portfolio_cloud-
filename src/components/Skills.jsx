@@ -1,30 +1,27 @@
+import { FaAws } from 'react-icons/fa';
+import { SiDocker, SiKubernetes, SiTerraform, SiLinux, SiJenkins, SiGithub } from 'react-icons/si';
 import { FaPython, FaJava, FaHtml5, FaCss3, FaDatabase,FaPhp, FaJsSquare,} from 'react-icons/fa';
 import { DiReact } from 'react-icons/di';
-import {  SiMysql } from 'react-icons/si';
-import dsImage from '../assets/ds.png'; // Data Structures image
-import algorithmsImage from '../assets/Algorthims.png'; // Algorithms image
-import nodeImage from '../assets/node.png'; // Node.js image
-import exImage from '../assets/ex.png'; // Express.js image
+// import dsImage from '../assets/ds.png'; // Data Structures image
+// import algorithmsImage from '../assets/Algorthims.png'; // Algorithms image
+// import nodeImage from '../assets/node.png'; // Node.js image
+// import exImage from '../assets/ex.png'; // Express.js image
 import vsCodeImage from '../assets/vs.png'; // VS Code image
 
-import oopImage from '../assets/oop.png'; // Object Oriented Programming image
+// import oopImage from '../assets/oop.png'; // Object Oriented Programming image
 
 
 const skills = [
-  { id: 1, name: "Java", icon: <FaJava size={40} />, proficiency: 80 },
-  { id: 2, name: "Python", icon: <FaPython size={40} />, proficiency: 70 },
-  { id: 4, name: "Data Structures", icon: <img src={dsImage} alt="Data Structures" className="w-10 h-10" />, proficiency: 85 },
-  { id: 5, name: "Algorithms", icon: <img src={algorithmsImage} alt="Algorithms" className="w-10 h-10" />, proficiency: 80 },
-  { id: 6, name: "HTML/CSS", icon: [<FaHtml5 key="html" size={40} />, <FaCss3 key="css" size={40} />], proficiency: 85 },
-  { id: 7, name: "JavaScript", icon: <FaJsSquare size={40} />, proficiency: 80 },
-  { id: 8, name: "MySQL", icon: <SiMysql size={40} />, proficiency: 75 },
-  { id: 9, name: "SQL", icon: <FaDatabase size={40} />, proficiency: 80 },
-  { id: 10, name: "React", icon: <DiReact size={40} />, proficiency: 70 },
-  { id: 14, name: "Object Oriented Programming", icon: <img src={oopImage} alt="OOP" className="w-10 h-10" />, proficiency: 80 },
-  { id: 15, name: "Node.js", icon: <img src={nodeImage} alt="Node.js" className="w-10 h-10" />, proficiency: 75 },
-  { id: 16, name: "Express.js", icon: <img src={exImage} alt="Express.js" className="w-10 h-10" />, proficiency: 70 },
-  { id: 17, name: "VS Code", icon: <img src={vsCodeImage} alt="VS Code" className="w-10 h-10" />, proficiency: 85 },
-  
+  { id: 1, name: "AWS",icon:<FaAws size={40} />, proficiency: 60},
+  { id: 2, name: "Docker",icon:<SiDocker size={40} />,proficiency: 80 },
+  { id: 3, name: "Kubernetes",icon:<SiKubernetes size={40} />, proficiency: 70 },
+  { id: 4, name: "Terraform",icon:<SiTerraform size={40} />, proficiency: 65 },
+  { id: 5, name: "Linux (Ubuntu)",  icon:<SiLinux size={40} />, proficiency: 85 },
+  { id: 6, name: "Python",icon: <FaPython size={40} />, proficiency: 75 },
+  { id: 7, name: "Git & GitHub",icon:<SiGithub size={40} />, proficiency: 80 },
+  { id: 8, name: "Jenkins", icon:<SiJenkins size={40} />,proficiency: 70 },
+  { id: 9, name: "VS Code", icon: <img src={vsCodeImage} alt="VS Code" className="w-10 h-10" />, proficiency: 85 },
+  { id: 10, name: "React (for Cloud Projects)", icon:<DiReact size={40} />, proficiency: 70 },
 ];
 
 const Skills = () => {

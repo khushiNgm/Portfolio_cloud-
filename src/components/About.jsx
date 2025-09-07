@@ -2,8 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import LinkedInImage from "../assets/linkedin.png";
 import GitHubImage from "../assets/github.png";
 import MailImage from "../assets/mail.png";
-import ResumePDF from "../assets/NGM_Khushi (2).pdf";
-import LeetCodeImage from "../assets/LeetCode.png";
+import ResumePDF from "../assets/Khushi_Cloud.pdf";
+
 
 
 const About = () => {
@@ -44,18 +44,16 @@ const About = () => {
         <div className="flex flex-col items-center md:space-x-12">
           <div className="flex-1">
             <p className="text-lg mb-8 text-justify">
-              I'm a passionate web developer who loves crafting interactive and
-              user-friendly websites. With expertise in frontend and backend
-              technologies, I turn ideas into reality using clean and efficient
-              code. Let's build something amazing together!"
+            I'm a passionate Junior Cloud Engineer focused on building scalable and secure cloud solutions. 
+            With hands-on experience in AWS, Docker, and Kubernetes, I help deploy, automate, and maintain 
+            cloud infrastructure efficiently. I enjoy working on deployment pipelines, serverless workflows, 
+           and cloud-based web hosting. Let's build something amazing together!"
             </p>
             <p className="text-lg mb-8 text-justify">
-              I specialize in building responsive, user-friendly websites and
-              dynamic web applications using React. With experience in both client-side and
-              server-side development, I enjoy solving complex problems and
-              creating seamless digital experiences. I'm also skilled in data
-              structures and algorithms, which helps me write efficient and
-              scalable code.
+            I specialize in creating automated cloud workflows, real-time alert services, and static web hosting 
+            using AWS. With a strong foundation in Linux, Python,AWS and DevOps tools like Jenkins, GitHub Actions, 
+            and Terraform, I aim to deliver optimized and reliable cloud solutions. I'm constantly learning and 
+            improving my skills to excel in large-scale cloud environments.
             </p>
             <div className="flex justify-center items-center space-x-6 my-8">
               <a
@@ -83,14 +81,6 @@ const About = () => {
                 className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img src={MailImage} alt="Email" className="w-10 h-10" />
-              </a>
-              <a
-                href="https://leetcode.com/u/kv1hCzVkBx/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
-              >
-                <img src={LeetCodeImage} alt="LeetCode" className="w-10 h-10" />
               </a>
               <a
                 href={ResumePDF}

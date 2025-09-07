@@ -1,13 +1,14 @@
 
 //  import UcfImage from '../assets/Vulogo.jfif'; // Import the UCF image
 import schoolImg from '../assets/MPBORD.png'
+import vikramuni from '../assets/Vikram_University_logo.jpg'
 const education = [
   {
-    institution: "Vikram University Ujjain",
+    institution: "Vikram University, Ujjain (M.P.)",
     degree: "Bachelor of Computer Application",
     duration: "2022-2025",
     gpa: "Grade: A",
-   image: schoolImg,// UcfImage 
+   image: vikramuni,// UcfImage 
   },
   {
     institution: "GOVT GIRLS H.S. SCHOOL, ALOTE (M.P.)",

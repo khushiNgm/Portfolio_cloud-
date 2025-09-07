@@ -22,7 +22,7 @@ const Hero = () => {
       
       <p className='mt-4 text-lg text-gray-600 dark:text-gray-300'>
         <span className='font-semibold text-gray-800 dark:text-gray-200'>
-        A passionate <strong> Frontend & Backend  Developer</strong> A Web Enthusiast
+        A passionate <strong>  Junior Cloud & DevOps Engineer |</strong> Building scalable cloud solutions and automating infrastructure with AWS, Docker, and Kubernetes
         </span>
       </p>
       

@@ -2,34 +2,38 @@
 import recipe from "../assets/RECIPE.png"; 
 import curd from '../assets/CURD.png'
 import MDSIMG from "../assets/mandsaur.png"; // Import Expense Tracker image
+import StaticWeb from "../assets/1754036549009.png";
+import AlertService from "../assets/1753357308669 (1).png";
+import GestureControlled from "../assets/1753611533318 (1).png";
 import GroceryImg from "../assets/GroceryWeb.png"; 
 import PortfolioImg from "../assets/portfolio.png"; 
 
 const projects = [
+ 
   {
     id: 1,
-    name: "CURD OPERATION",
-    technologies: "Built a CRUD application using React.js, Tailwind CSS, JavaScript, API integration, and Local Storage for seamless data management.",
-    image: curd,
-    github: "https://github.com/khushiNgm/CURD_REACT",
-    liveDemo: "https://curdreact.vercel.app/",
-  
+    name: " Real-Time File Upload Alert Service",
+    technologies: "AWS S3, Lambda, SNS, IAM, Python (Boto3)",
+    image: AlertService,
+    github: "https://github.com/khushiNgm/recipe_pro",
+    // liveDemo: "https://recipepro-ten.vercel.app/",
   },
   {
     id: 2,
-    name: "RESIPE SEARCH APP",
-    technologies: "Developed a Recipe Search App using HTML5, CSS3, JavaScript, and TheMealDB API for dynamic recipe exploration.",
-    image: recipe,
-    github: "https://github.com/khushiNgm/recipe_pro",
-    liveDemo: "https://recipepro-ten.vercel.app/",
+    name: "Static Web App Deployment on AWS S3",
+    technologies: "S3, IAM, AWS CLI, CloudFront",
+    image: StaticWeb,
+    github: "https://github.com/khushiNgm/CURD_REACT",
+    // liveDemo: "https://curdreact.vercel.app/",
+  
   },
   {
     id: 3,
-    name: "MANDSAUR WEB",
-    technologies: "A modern, responsive website for Mandsaur built with React and React Router, enabling smooth navigation and dynamic page rendering.",
-    image: MDSIMG,
+    name: "Gesture-Controlled AWS EC2 Instance Launch",
+    technologies: "Python, OpenCV, cvzone, Boto3, AWS EC2, Amazon Linux 2",
+    image: GestureControlled,
     github: "https://github.com/khushiNgm/MDS_WEB",
-    liveDemo: "https://mds-web-ashy.vercel.app/",
+    // liveDemo: "https://mds-web-ashy.vercel.app/",
   },
   {
     id: 4,
